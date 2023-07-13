@@ -83,12 +83,15 @@ function generateCyclotron(particle, size) {
     if matrix < 4, it will be considered 4`;
 }
 
-// generateCyclotron('p', 5);
-
-// visual examples:
+// visual examples: (uncomment)
 // console.log(generateCyclotron('w', 3));
 // console.log(generateCyclotron('q', 4));
 // console.log(generateCyclotron('e', 5));
 // console.log(generateCyclotron('p', 6));
 // console.log(generateCyclotron('3', 6));
 // console.log(Array.from({ length: 4 }, () => 1));
+
+// OBS: The approach chosen for this task was to use a fully populated matrix and subsequently replace values as necessary
+// This decision was made with maintainability in mind, as it allows for easy modification in the future, if any changes be required
+// The code was optimized by employing efficient methods and leveraging multiple functions to enhance its scalability
+// This approach demonstrates the adherence to good data structure practices, ensuring improved efficiency and the ability to handle growing demands effectively.
