@@ -1,6 +1,6 @@
-// The use of the fill() method was chosen instead of a for loop because the values to be filled in the matrix are static and repetitive
-// The fill() method is more suitable in this case as it is internally implemented in an optimized manner, making it more efficient
 function createMatrix(size) {
+  // The use of the fill() method was chosen instead of a for loop because the values to be filled in the matrix are static and repetitive
+  // The fill() method is more suitable in this case as it is internally implemented in an optimized manner, making it more efficient
   return new Array(size).fill(1).map((element) => new Array(size).fill(element));
 }
 
